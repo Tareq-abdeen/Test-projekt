@@ -1,0 +1,45 @@
+body{
+    direction: rtl;
+}
+.hello{
+    font-size: large;
+    font-style: italic;
+}
+
+#i  {
+    color: blue;
+    font-size: 150;
+    font-style: italic;
+    font-stretch: ultra-condensed;
+}
+div h4{
+    color: rgb(165, 46, 70);
+    font-size: 150;
+    font-style: oblique;
+}
+input[type="text"]{
+
+    color: red;
+}
+input[value="ok"]{
+    background: green;
+}
+input[ type="password"]{
+    background:rgb(116, 141, 223);
+    color: rgb(30, 219, 87);
+}
+.x{
+
+    height: 20px;
+    width:5%;
+    background: black;
+    border-color:yellow;
+    border-width: 30px;
+    border-left: 10px;
+    border-top-left-radius: 50px;
+    border-style: double;
+}
+.fm >p{
+  color:#ff002b;
+}
+
