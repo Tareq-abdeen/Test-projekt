@@ -13,7 +13,7 @@ body{
     font-stretch: ultra-condensed;
 }
 div h4{
-    color: rgb(165, 46, 70);
+    color: #a52e46;
     font-size: 150;
     font-style: oblique;
 }
@@ -25,8 +25,8 @@ input[value="ok"]{
     background: green;
 }
 input[ type="password"]{
-    background:rgb(116, 141, 223);
-    color: rgb(30, 219, 87);
+    background:#748ddf;
+    color: #1edb57;
 }
 .x{
 
