@@ -1,45 +1,124 @@
-body{
-    direction: rtl;
+body {
+  text-align: center;
+  direction: inherit;
 }
-.hello{
-    font-size: large;
-    font-style: italic;
-}
-
-#i  {
-    color: blue;
-    font-size: 150;
-    font-style: italic;
-    font-stretch: ultra-condensed;
-}
-div h4{
-    color: #a52e46;
-    font-size: 150;
-    font-style: oblique;
-}
-input[type="text"]{
-
-    color: red;
-}
-input[value="ok"]{
-    background: green;
-}
-input[ type="password"]{
-    background:#748ddf;
-    color: #1edb57;
-}
-.x{
-
-    height: 20px;
-    width:5%;
-    background: black;
-    border-color:yellow;
-    border-width: 30px;
-    border-left: 10px;
-    border-top-left-radius: 50px;
-    border-style: double;
-}
-.fm >p{
-  color:#ff002b;
+.hello {
+  font-size: large;
+  font-style: italic;
 }
 
+#i {
+  color: blue;
+  font-size: 150;
+  font-style: italic;
+  font-stretch: ultra-condensed;
+}
+div h4 {
+  color: #a52e46;
+  font-size: 150;
+  font-style: oblique;
+}
+input[type="text"] {
+  color: red;
+}
+input[value="ok"] {
+  background: green;
+}
+input[type="password"] {
+  background: #748ddf;
+  color: #1edb57;
+}
+.x {
+  height: 20px;
+  width: 5%;
+  background: black;
+  border-color: yellow;
+  border-width: 30px;
+  border-left: 10px;
+  border-top-left-radius: 50px;
+  border-style: double;
+}
+.fm > p {
+  color: #ff002b;
+}
+.fm div:nth-child(1) {
+  background-color: #1edb57;
+  color: white;
+}
+
+.xm {
+  height: 300px;
+  width: 250px;
+  border: 20px black solid;
+  background-color: cadetblue;
+  background-image: url("../bilder/bild.png");
+  background-size: 50%, 50%; /* تأخذ قيمة العرض*/
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom;
+}
+.mar h1 {
+  border: 5px black solid;
+  width: 50%;
+  height: 50%;
+  padding-left: 30px;
+  padding-bottom: 50px;
+  padding: 10px 20px 30px 40px; /* top right bottom left*/
+  padding: 5px 5px; /* top,bottom right,left*/
+
+  padding-right: 10px; /* او نعطي القيم شمال 25% ويمين25% in center */
+  /* oder margin auto*/
+  /* استطيع ان تكون تماما ملاصفة لحرف الشاشة من اليمين والفوق عن طريق الكود 
+   margin: 0;
+   padding: 0; */
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.mar p {
+  color: blueviolet;
+}
+a {
+  text-decoration: line-through;
+  text-emphasis-color: green;
+  font-size: x-large;
+  pad: 20px;
+  margin: auto;
+  text-align: center;
+}
+.hov a:hover {
+  color: red;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-variant-position: super;
+}
+.imgg #i:hover {
+  cursor: help;
+}
+
+.div_test {
+  margin: 20px;
+  padding: 20px;
+  background-color: #1edb57;
+  font-size: xx-large;
+  display: inline-block;
+}
+.sp :not(.sp_none) {
+  font-size: large;
+  color: rgb(248, 65, 19);
+  padding: 10px;
+  margin: 10px;
+  display: none;
+}
+
+.test :not(h1) {
+  font-size: 152px;
+}
+.Overflow {
+  height: 120px;
+  width: 120px;
+  background-color: #1edb57;
+  overflow: auto;
+  margin: auto;
+}
