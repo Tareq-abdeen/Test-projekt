@@ -80,18 +80,21 @@ input[type="password"] {
   color: blueviolet;
 }
 a {
-  text-decoration: line-through;
-  text-emphasis-color: green;
+  color: rgb(235, 85, 16);
+  text-decoration: #05dd4d underline;
   font-size: x-large;
   pad: 20px;
   margin: auto;
   text-align: center;
 }
-.hov a:hover {
+a:hover {
   color: red;
   font-size: large;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-variant-position: super;
+}
+a:visited {
+  color: black;
+  font: italic;
 }
 .imgg #i:hover {
   cursor: help;
@@ -121,4 +124,30 @@ a {
   background-color: #1edb57;
   overflow: auto;
   margin: auto;
+}
+
+.hello div {
+  background-color: yellow;
+  font-size: 25px;
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+.d1 {
+  width: 80px;
+  right: 0;
+}
+.bil_scroll {
+  position: fixed;
+  top: 0;
+  margin: 100px 25%;
+}
+
+.d2 {
+  width: 80px;
+  background-color: #a52e46;
+  position: fixed;
+  bottom: 0;
 }
